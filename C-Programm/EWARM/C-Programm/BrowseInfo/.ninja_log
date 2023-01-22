@@ -1,0 +1,148 @@
+# ninja log v5
+11	150	6918847020000000	C:/Users/jakob/Desktop/test/C-Programm/EWARM/C-Programm/BrowseInfo/Application/User/Core/main.xcl	20f05b8409a6efa3
+23	165	6918847020000000	C:/Users/jakob/Desktop/test/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_exti.xcl	eee644a89b14eb11
+2	179	6918847020000000	C:/Users/jakob/Desktop/test/C-Programm/EWARM/C-Programm/BrowseInfo/Application/User/Core/stm32f4xx_hal_msp.xcl	dbbf0d1242c0bf55
+17	195	6918847020000000	C:/Users/jakob/Desktop/test/C-Programm/EWARM/C-Programm/BrowseInfo/Application/User/Core/stm32f4xx_it.xcl	ebd99abb7f6f52bf
+160	281	6918847020000000	C:/Users/jakob/Desktop/test/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_dma.xcl	989e743649d32b81
+175	297	6918847020000000	C:/Users/jakob/Desktop/test/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_dma_ex.xcl	29d8ee9e4f5a4ca7
+190	313	6918847020000000	C:/Users/jakob/Desktop/test/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal.xcl	f3a6c8a4af58f41e
+205	329	6918847020000000	C:/Users/jakob/Desktop/test/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_cortex.xcl	4c92da19ea97c595
+292	411	6918847030000000	C:/Users/jakob/Desktop/test/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/CMSIS/system_stm32f4xx.xcl	fe9971d6b06044dc
+309	427	6918847030000000	C:/Users/jakob/Desktop/test/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_flash.xcl	26e7cef4381e90f
+324	444	6918847030000000	C:/Users/jakob/Desktop/test/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_flash_ex.xcl	148095721a584d25
+341	461	6918847030000000	C:/Users/jakob/Desktop/test/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_flash_ramfunc.xcl	181099dc75627439
+422	536	6918847030000000	C:/Users/jakob/Desktop/test/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_gpio.xcl	b1d281d283d8a456
+439	553	6918847030000000	C:/Users/jakob/Desktop/test/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_pwr.xcl	c0c4c8383069cd8f
+456	570	6918847030000000	C:/Users/jakob/Desktop/test/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_rcc.xcl	e6216f864b39e57b
+473	586	6918847030000000	C:/Users/jakob/Desktop/test/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_tim_ex.xcl	4f74c7a56f70acbd
+565	660	6918847030000000	C:/Users/jakob/Desktop/test/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_pwr_ex.xcl	e6350cc2692091de
+597	697	6918847030000000	C:/Users/jakob/Desktop/test/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_tim.xcl	488844eef99a81cb
+672	781	6918847030000000	C:/Users/jakob/Desktop/test/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_rcc_ex.xcl	d994a48a5f4f8972
+581	1188	6918847038693532	C:/Users/jakob/Desktop/test/C-Programm/EWARM/C-Programm/BrowseInfo/Application/User/Core/stm32f4xx_hal_msp.pbi	c6e6ba4a8b3ea67b
+705	1198	6918847038736057	C:/Users/jakob/Desktop/test/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/CMSIS/system_stm32f4xx.pbi	8f27a504a15f0cc8
+548	1208	6918847038766207	C:/Users/jakob/Desktop/test/C-Programm/EWARM/C-Programm/BrowseInfo/Application/User/Core/main.pbi	fac175a907fcc590
+789	1220	6918847038951627	C:/Users/jakob/Desktop/test/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_cortex.pbi	f9c817cfc1cfbe61
+1193	1488	6918847041696572	C:/Users/jakob/Desktop/test/C-Programm/EWARM/C-Programm/BrowseInfo/Application/User/Core/stm32f4xx_it.pbi	f32aa045b9a33a2f
+1212	1498	6918847041763719	C:/Users/jakob/Desktop/test/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal.pbi	f742c211c829ac26
+1224	1528	6918847042093689	C:/Users/jakob/Desktop/test/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_dma.pbi	e56a2353df3295f1
+1203	1538	6918847042097259	C:/Users/jakob/Desktop/test/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_dma_ex.pbi	3d66ccc35a32c2e4
+1503	1766	6918847044467504	C:/Users/jakob/Desktop/test/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_pwr.pbi	275db2792ea1c589
+1493	1782	6918847044634114	C:/Users/jakob/Desktop/test/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_flash_ex.pbi	23d4807ff063c2ed
+1534	1804	6918847044855111	C:/Users/jakob/Desktop/test/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_gpio.pbi	d65349849be4adaf
+1544	1843	6918847045242249	C:/Users/jakob/Desktop/test/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_flash.pbi	82112d03efe71599
+1770	2053	6918847047344812	C:/Users/jakob/Desktop/test/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_exti.pbi	7b47679077bdd390
+1788	2068	6918847047469605	C:/Users/jakob/Desktop/test/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_flash_ramfunc.pbi	d61bf5788a2023d0
+1811	2113	6918847047935388	C:/Users/jakob/Desktop/test/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_tim_ex.pbi	17dc3afee6f2a2f6
+1849	2144	6918847048259210	C:/Users/jakob/Desktop/test/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_pwr_ex.pbi	326b579922ebcbdc
+2058	2352	6918847050330166	C:/Users/jakob/Desktop/test/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_rcc.pbi	3b2c70b5099104ea
+2118	2409	6918847050901923	C:/Users/jakob/Desktop/test/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_rcc_ex.pbi	9308984c82e6ef9f
+2149	2442	6918847051237793	C:/Users/jakob/Desktop/test/C-Programm/EWARM/C-Programm/BrowseInfo/C-Programm_part1.pbi	b00b14dd22cd52d
+2073	2493	6918847051749354	C:/Users/jakob/Desktop/test/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_tim.pbi	df69caa6ce1c1748
+2358	2640	6918847053231055	C:/Users/jakob/Desktop/test/C-Programm/EWARM/C-Programm/BrowseInfo/C-Programm_part3.pbi	7925e04dc54d6b72
+2414	2670	6918847053523831	C:/Users/jakob/Desktop/test/C-Programm/EWARM/C-Programm/BrowseInfo/C-Programm_part0.pbi	6b4646c2136c7599
+2451	2700	6918847053833833	C:/Users/jakob/Desktop/test/C-Programm/EWARM/C-Programm/BrowseInfo/C-Programm_part2.pbi	7ffdbd91a16221b8
+2497	2710	6918847053876205	C:/Users/jakob/Desktop/test/C-Programm/EWARM/C-Programm/BrowseInfo/C-Programm_part4.pbi	b2f75f159d233120
+2716	3016	6918847056999770	C:/Users/jakob/Desktop/test/C-Programm/EWARM/C-Programm/BrowseInfo/C-Programm.pbd	276f4532c9439fb5
+3027	4518	6918847071478714	C:/Users/jakob/Desktop/test/C-Programm/EWARM/C-Programm/BrowseInfo/C-Programm.pbw	3ed61c38097e83db
+4	205	6918850520487908	C:/Users/jakob/Desktop/test/C-Programm/EWARM/C-Programm/BrowseInfo/Application/User/Core/main.pbi	fac175a907fcc590
+212	466	6918850523047374	C:/Users/jakob/Desktop/test/C-Programm/EWARM/C-Programm/BrowseInfo/C-Programm_part0.pbi	6b4646c2136c7599
+503	858	6918850526963069	C:/Users/jakob/Desktop/test/C-Programm/EWARM/C-Programm/BrowseInfo/C-Programm.pbd	276f4532c9439fb5
+869	2460	6918850542555509	C:/Users/jakob/Desktop/test/C-Programm/EWARM/C-Programm/BrowseInfo/C-Programm.pbw	3ed61c38097e83db
+2	151	6919802797295288	C:/Users/jakob/Desktop/test/C-Programm/EWARM/C-Programm/BrowseInfo/Application/User/Core/main.pbi	fac175a907fcc590
+158	334	6919802799141941	C:/Users/jakob/Desktop/test/C-Programm/EWARM/C-Programm/BrowseInfo/C-Programm_part0.pbi	6b4646c2136c7599
+342	499	6919802800783135	C:/Users/jakob/Desktop/test/C-Programm/EWARM/C-Programm/BrowseInfo/C-Programm.pbd	276f4532c9439fb5
+505	2044	6919802815928345	C:/Users/jakob/Desktop/test/C-Programm/EWARM/C-Programm/BrowseInfo/C-Programm.pbw	3ed61c38097e83db
+1	3177	6950869000000000	F:/temporary_files/Aufgabe 2/Aufgabe 2/C-Programm/C-Programm/EWARM/C-Programm/BrowseInfo/Application/User/Core/main.xcl	9393da481a34dd93
+438	3188	6950869000000000	F:/temporary_files/Aufgabe 2/Aufgabe 2/C-Programm/C-Programm/EWARM/C-Programm/BrowseInfo/Application/User/Core/stm32f4xx_it.xcl	d307f272c329092c
+459	3199	6950869000000000	F:/temporary_files/Aufgabe 2/Aufgabe 2/C-Programm/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_exti.xcl	3446f5311d3e9e6c
+412	3209	6950869000000000	F:/temporary_files/Aufgabe 2/Aufgabe 2/C-Programm/C-Programm/EWARM/C-Programm/BrowseInfo/Application/User/Core/stm32f4xx_hal_msp.xcl	b84fa6a2652bffdb
+470	3220	6950869000000000	F:/temporary_files/Aufgabe 2/Aufgabe 2/C-Programm/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal.xcl	91fc7f9c0d3105c6
+449	3231	6950869000000000	F:/temporary_files/Aufgabe 2/Aufgabe 2/C-Programm/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/CMSIS/system_stm32f4xx.xcl	91961e7f9bbc7606
+3177	3279	6950869000000000	F:/temporary_files/Aufgabe 2/Aufgabe 2/C-Programm/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_flash.xcl	aa5e81dcf6686b0
+3189	3315	6950869000000000	F:/temporary_files/Aufgabe 2/Aufgabe 2/C-Programm/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_dma_ex.xcl	2f2816c9af3f1d36
+3210	3331	6950869000000000	F:/temporary_files/Aufgabe 2/Aufgabe 2/C-Programm/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_cortex.xcl	d35e600dc3744da0
+3200	3343	6950869000000000	F:/temporary_files/Aufgabe 2/Aufgabe 2/C-Programm/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_dma.xcl	d4facee941b16c73
+3221	3778	6950869000000000	F:/temporary_files/Aufgabe 2/Aufgabe 2/C-Programm/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_flash_ramfunc.xcl	262ad736b7f9a976
+3231	3799	6950869000000000	F:/temporary_files/Aufgabe 2/Aufgabe 2/C-Programm/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_pwr_ex.xcl	2dbea35d7a6172ae
+3316	3812	6950869000000000	F:/temporary_files/Aufgabe 2/Aufgabe 2/C-Programm/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_gpio.xcl	1b3ca1ff296db07a
+3280	3829	6950869000000000	F:/temporary_files/Aufgabe 2/Aufgabe 2/C-Programm/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_flash_ex.xcl	19985ff376c9b140
+3333	3865	6950869010000000	F:/temporary_files/Aufgabe 2/Aufgabe 2/C-Programm/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_pwr.xcl	7cb10e4f6d905e80
+3788	3903	6950869010000000	F:/temporary_files/Aufgabe 2/Aufgabe 2/C-Programm/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_rcc_ex.xcl	53e722c4da5473a9
+3812	3914	6950869010000000	F:/temporary_files/Aufgabe 2/Aufgabe 2/C-Programm/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_rcc.xcl	130aadaad34f47f2
+3866	3939	6950869010000000	F:/temporary_files/Aufgabe 2/Aufgabe 2/C-Programm/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_tim.xcl	2049a1a20f3c0881
+3345	3971	6950869011292648	F:/temporary_files/Aufgabe 2/Aufgabe 2/C-Programm/C-Programm/EWARM/C-Programm/BrowseInfo/Application/User/Core/main.pbi	2e78bfc67a34b3ce
+3903	3979	6950869010000000	F:/temporary_files/Aufgabe 2/Aufgabe 2/C-Programm/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_tim_ex.xcl	70deb803417c10e8
+3800	4010	6950869011674581	F:/temporary_files/Aufgabe 2/Aufgabe 2/C-Programm/C-Programm/EWARM/C-Programm/BrowseInfo/Application/User/Core/stm32f4xx_hal_msp.pbi	45fcd53cc3d7e6b5
+3830	4046	6950869012031698	F:/temporary_files/Aufgabe 2/Aufgabe 2/C-Programm/C-Programm/EWARM/C-Programm/BrowseInfo/Application/User/Core/stm32f4xx_it.pbi	336055a95222f272
+3915	4120	6950869012775696	F:/temporary_files/Aufgabe 2/Aufgabe 2/C-Programm/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_dma_ex.pbi	61e9e78d5d8b1091
+3940	4142	6950869013003868	F:/temporary_files/Aufgabe 2/Aufgabe 2/C-Programm/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_dma.pbi	321eefa60bdcde80
+3972	4165	6950869013117934	F:/temporary_files/Aufgabe 2/Aufgabe 2/C-Programm/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/CMSIS/system_stm32f4xx.pbi	ec89d0c4b9f9e884
+3980	4233	6950869013608965	F:/temporary_files/Aufgabe 2/Aufgabe 2/C-Programm/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_exti.pbi	316abbe481510776
+4011	4244	6950869013946253	F:/temporary_files/Aufgabe 2/Aufgabe 2/C-Programm/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal.pbi	7bb0b9d8f68046de
+4121	4329	6950869014868809	F:/temporary_files/Aufgabe 2/Aufgabe 2/C-Programm/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_rcc.pbi	598db54742211bd8
+4143	4373	6950869015156482	F:/temporary_files/Aufgabe 2/Aufgabe 2/C-Programm/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_pwr.pbi	30b7df78eb0a5002
+4047	4390	6950869015344968	F:/temporary_files/Aufgabe 2/Aufgabe 2/C-Programm/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_cortex.pbi	782232a1030d4b96
+4166	4399	6950869015538406	F:/temporary_files/Aufgabe 2/Aufgabe 2/C-Programm/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_pwr_ex.pbi	7737e207b3258b56
+4233	4876	6950869015955052	F:/temporary_files/Aufgabe 2/Aufgabe 2/C-Programm/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_flash.pbi	2ab957c23ec46032
+4245	4886	6950869016105640	F:/temporary_files/Aufgabe 2/Aufgabe 2/C-Programm/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_flash_ramfunc.pbi	f1656fbd037c6af6
+4374	4895	6950869017381300	F:/temporary_files/Aufgabe 2/Aufgabe 2/C-Programm/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_flash_ex.pbi	9aeedabe86a76fea
+4391	4902	6950869017391211	F:/temporary_files/Aufgabe 2/Aufgabe 2/C-Programm/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_tim.pbi	fc8277e885f8f6b5
+4330	4913	6950869017570370	F:/temporary_files/Aufgabe 2/Aufgabe 2/C-Programm/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_gpio.pbi	84fd7c08236a6330
+4903	5106	6950869022451135	F:/temporary_files/Aufgabe 2/Aufgabe 2/C-Programm/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_tim_ex.pbi	fd419fa7c1badc1d
+4887	5112	6950869022495769	F:/temporary_files/Aufgabe 2/Aufgabe 2/C-Programm/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_rcc_ex.pbi	8f64a128f2c66394
+4878	5145	6950869022526534	F:/temporary_files/Aufgabe 2/Aufgabe 2/C-Programm/C-Programm/EWARM/C-Programm/BrowseInfo/C-Programm_part0.pbi	511f2029bcf3b9a5
+4400	5147	6950869022670348	F:/temporary_files/Aufgabe 2/Aufgabe 2/C-Programm/C-Programm/EWARM/C-Programm/BrowseInfo/C-Programm_part1.pbi	21852554a3166e4
+4896	5160	6950869022983266	F:/temporary_files/Aufgabe 2/Aufgabe 2/C-Programm/C-Programm/EWARM/C-Programm/BrowseInfo/C-Programm_part2.pbi	c1a8002910325458
+4914	5161	6950869023075861	F:/temporary_files/Aufgabe 2/Aufgabe 2/C-Programm/C-Programm/EWARM/C-Programm/BrowseInfo/C-Programm_part3.pbi	a037b69ad68d9b85
+5113	5271	6950869024299343	F:/temporary_files/Aufgabe 2/Aufgabe 2/C-Programm/C-Programm/EWARM/C-Programm/BrowseInfo/C-Programm_part4.pbi	9812fc730cca697
+5273	5445	6950869026027137	F:/temporary_files/Aufgabe 2/Aufgabe 2/C-Programm/C-Programm/EWARM/C-Programm/BrowseInfo/C-Programm.pbd	85d5d4979d4ff978
+5445	8798	6950869059246931	F:/temporary_files/Aufgabe 2/Aufgabe 2/C-Programm/C-Programm/EWARM/C-Programm/BrowseInfo/C-Programm.pbw	e79e295297d64a7e
+2	157	6950869868784327	F:/temporary_files/Aufgabe 2/Aufgabe 2/C-Programm/C-Programm/EWARM/C-Programm/BrowseInfo/Application/User/Core/main.pbi	2e78bfc67a34b3ce
+157	327	6950869870501093	F:/temporary_files/Aufgabe 2/Aufgabe 2/C-Programm/C-Programm/EWARM/C-Programm/BrowseInfo/C-Programm_part0.pbi	511f2029bcf3b9a5
+328	499	6950869872216662	F:/temporary_files/Aufgabe 2/Aufgabe 2/C-Programm/C-Programm/EWARM/C-Programm/BrowseInfo/C-Programm.pbd	85d5d4979d4ff978
+21	1014	6950870009777759	F:/temporary_files/Aufgabe 2/Aufgabe 2/C-Programm/C-Programm/EWARM/C-Programm/BrowseInfo/C-Programm.pbw	e79e295297d64a7e
+39	129	6950871950000000	F:/Projects/STM32F411_project/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_dma_ex.xcl	ed3591034f7d98a
+49	142	6950871950000000	F:/Projects/STM32F411_project/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_exti.xcl	5b1e1c53853070ca
+10	169	6950871950000000	F:/Projects/STM32F411_project/C-Programm/EWARM/C-Programm/BrowseInfo/Application/User/Core/stm32f4xx_hal_msp.xcl	ccc31feb14fe6605
+130	198	6950871950000000	F:/Projects/STM32F411_project/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_dma.xcl	a4344e53980b2004
+1	211	6950871950000000	F:/Projects/STM32F411_project/C-Programm/EWARM/C-Programm/BrowseInfo/Application/User/Core/main.xcl	dec0f8b08a2fe108
+143	221	6950871950000000	F:/Projects/STM32F411_project/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_cortex.xcl	cdd7fd7058d0bf8d
+19	239	6950871950000000	F:/Projects/STM32F411_project/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/CMSIS/system_stm32f4xx.xcl	6a89681127ff6d77
+169	258	6950871950000000	F:/Projects/STM32F411_project/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal.xcl	1cae644b29bf0fe
+30	276	6950871950000000	F:/Projects/STM32F411_project/C-Programm/EWARM/C-Programm/BrowseInfo/Application/User/Core/stm32f4xx_it.xcl	93c8ad928f17c682
+199	293	6950871950000000	F:/Projects/STM32F411_project/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_gpio.xcl	98641a1c34978604
+211	315	6950871950000000	F:/Projects/STM32F411_project/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_flash.xcl	30f015e3322f2740
+221	334	6950871950000000	F:/Projects/STM32F411_project/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_pwr.xcl	90ad8b01aefe6aa8
+240	349	6950871950000000	F:/Projects/STM32F411_project/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_pwr_ex.xcl	c35e01deba623147
+259	367	6950871950000000	F:/Projects/STM32F411_project/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_flash_ex.xcl	ef3ccbf29d65f2f3
+277	386	6950871950000000	F:/Projects/STM32F411_project/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_flash_ramfunc.xcl	755a57cd66c961d3
+315	497	6950871950000000	F:/Projects/STM32F411_project/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_tim.xcl	aa6bb6d63712a40e
+294	507	6950871958827590	F:/Projects/STM32F411_project/C-Programm/EWARM/C-Programm/BrowseInfo/Application/User/Core/stm32f4xx_hal_msp.pbi	4958fc9aade6925b
+350	517	6950871950000000	F:/Projects/STM32F411_project/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_rcc.xcl	962724287fcf250d
+367	526	6950871950000000	F:/Projects/STM32F411_project/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_rcc_ex.xcl	6878c1986d035fb9
+335	539	6950871950000000	F:/Projects/STM32F411_project/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_tim_ex.xcl	581b2db3d28321d2
+387	610	6950871959879115	F:/Projects/STM32F411_project/C-Programm/EWARM/C-Programm/BrowseInfo/Application/User/Core/main.pbi	ec8bc2fff5a79b96
+498	684	6950871960618148	F:/Projects/STM32F411_project/C-Programm/EWARM/C-Programm/BrowseInfo/Application/User/Core/stm32f4xx_it.pbi	fcdf03b2630d1b0e
+518	696	6950871960732224	F:/Projects/STM32F411_project/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_exti.pbi	6f8839a6cfd6cfd0
+527	716	6950871960945506	F:/Projects/STM32F411_project/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/CMSIS/system_stm32f4xx.pbi	f673a79a823f68ec
+611	788	6950871961654783	F:/Projects/STM32F411_project/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_cortex.pbi	98745dbf0dac4ef1
+508	797	6950871961749024	F:/Projects/STM32F411_project/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_dma_ex.pbi	464825efa34bf2bf
+540	829	6950871962071428	F:/Projects/STM32F411_project/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal.pbi	11702799b1e24134
+696	873	6950871962502949	F:/Projects/STM32F411_project/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_flash_ex.pbi	d393ebff9d702507
+717	903	6950871962810464	F:/Projects/STM32F411_project/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_flash.pbi	6dd50e6e83de2cdc
+789	981	6950871963579297	F:/Projects/STM32F411_project/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_pwr.pbi	f09b47796ae1cc6c
+798	995	6950871963733044	F:/Projects/STM32F411_project/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_flash_ramfunc.pbi	c191312944e6a651
+685	1009	6950871963866958	F:/Projects/STM32F411_project/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_dma.pbi	3cccf1154de00c8
+830	1034	6950871964119904	F:/Projects/STM32F411_project/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_pwr_ex.pbi	19ef8c3fdbea585b
+874	1078	6950871964561341	F:/Projects/STM32F411_project/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_gpio.pbi	e003706e24946096
+905	1106	6950871964844069	F:/Projects/STM32F411_project/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_tim_ex.pbi	7775b2e105f05cd4
+981	1172	6950871965508700	F:/Projects/STM32F411_project/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_rcc_ex.pbi	53be731fd19e9626
+996	1183	6950871965607900	F:/Projects/STM32F411_project/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_tim.pbi	61222e26aecc6b90
+1010	1211	6950871965895590	F:/Projects/STM32F411_project/C-Programm/EWARM/C-Programm/BrowseInfo/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_rcc.pbi	788d0ad93552003c
+1035	1235	6950871966138618	F:/Projects/STM32F411_project/C-Programm/EWARM/C-Programm/BrowseInfo/C-Programm_part0.pbi	28aa5238e51d2f0a
+1078	1269	6950871966485827	F:/Projects/STM32F411_project/C-Programm/EWARM/C-Programm/BrowseInfo/C-Programm_part2.pbi	46a2ecbfdb29d59a
+1107	1335	6950871966922298	F:/Projects/STM32F411_project/C-Programm/EWARM/C-Programm/BrowseInfo/C-Programm_part1.pbi	6f688f70d35174af
+1184	1344	6950871967219911	F:/Projects/STM32F411_project/C-Programm/EWARM/C-Programm/BrowseInfo/C-Programm_part4.pbi	2d23247823344766
+1212	1411	6950871967711079	F:/Projects/STM32F411_project/C-Programm/EWARM/C-Programm/BrowseInfo/C-Programm_part3.pbi	4102448e81c21f9b
+1413	1582	6950871969605993	F:/Projects/STM32F411_project/C-Programm/EWARM/C-Programm/BrowseInfo/C-Programm.pbd	a7df28ae9b9ad245
+1584	2598	6950871978868399	F:/Projects/STM32F411_project/C-Programm/EWARM/C-Programm/BrowseInfo/C-Programm.pbw	9f63d1f6adfbd8c2

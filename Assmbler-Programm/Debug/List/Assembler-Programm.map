@@ -1,0 +1,248 @@
+###############################################################################
+#
+# IAR ELF Linker V9.32.1.338/W64 for ARM                  23/Jan/2023  00:22:34
+# Copyright 2007-2022 IAR Systems AB.
+#
+#    Output file  =
+#        F:\Projects\STM32F411_project\Assmbler-Programm\Debug\Exe\Assembler-Programm.out
+#    Map file     =
+#        F:\Projects\STM32F411_project\Assmbler-Programm\Debug\List\Assembler-Programm.map
+#    Command line =
+#        -f
+#        F:\Projects\STM32F411_project\Assmbler-Programm\Debug\Exe\Assembler-Programm.out.rsp
+#        (F:\Projects\STM32F411_project\Assmbler-Programm\Debug\Obj\asm.o
+#        --no_out_extension -o
+#        F:\Projects\STM32F411_project\Assmbler-Programm\Debug\Exe\Assembler-Programm.out
+#        --redirect _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb
+#        --map
+#        F:\Projects\STM32F411_project\Assmbler-Programm\Debug\List\Assembler-Programm.map
+#        --config "E:\Program Files\IAR Systems\Embedded Workbench
+#        9.1\arm\config\generic_cortex.icf" --semihosting --no_library_search
+#        --entry __iar_program_start --vfe --text_out locale --cpu=Cortex-M3
+#        --fpu=None)
+#
+###############################################################################
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x0 { ro section .intvec };
+"P1":  place in [from 0x0 to 0x7'ffff] { ro };
+define block CSTACK with size = 1K, alignment = 8 { };
+define block PROC_STACK with size = 0, alignment = 8 { };
+define block HEAP with size = 2K, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2000'ffff] {
+          rw, block CSTACK, block PROC_STACK, block HEAP };
+
+No sections matched the following patterns:
+
+  rw  in "P2"
+
+
+  Section   Kind         Address   Size  Object
+  -------   ----         -------   ----  ------
+"A0":                             0x198
+  .intvec   ro code          0x0  0x198  asm.o [1]
+                         - 0x198  0x198
+
+"P1":                             0x29a
+  .text     ro code        0x198  0x1b4  asm.o [1]
+  .text     ro code        0x34c    0x4  asm.o [1]
+  .text     ro code        0x350    0x4  asm.o [1]
+  .text     ro code        0x354    0x4  asm.o [1]
+  .text     ro code        0x358    0x4  asm.o [1]
+  .text     ro code        0x35c    0x4  asm.o [1]
+  .text     ro code        0x360    0x4  asm.o [1]
+  .text     ro code        0x364    0x4  asm.o [1]
+  .text     ro code        0x368    0x4  asm.o [1]
+  .text     ro code        0x36c    0x4  asm.o [1]
+  .text     ro code        0x370    0x4  asm.o [1]
+  .text     ro code        0x374    0x4  asm.o [1]
+  .text     ro code        0x378    0x4  asm.o [1]
+  .text     ro code        0x37c    0x4  asm.o [1]
+  .text     ro code        0x380    0x4  asm.o [1]
+  .text     ro code        0x384    0x4  asm.o [1]
+  .text     ro code        0x388    0x4  asm.o [1]
+  .text     ro code        0x38c    0x4  asm.o [1]
+  .text     ro code        0x390    0x4  asm.o [1]
+  .text     ro code        0x394    0x4  asm.o [1]
+  .text     ro code        0x398    0x4  asm.o [1]
+  .text     ro code        0x39c    0x4  asm.o [1]
+  .text     ro code        0x3a0    0x4  asm.o [1]
+  .text     ro code        0x3a4    0x4  asm.o [1]
+  .text     ro code        0x3a8    0x4  asm.o [1]
+  .text     ro code        0x3ac    0x4  asm.o [1]
+  .text     ro code        0x3b0    0x4  asm.o [1]
+  .text     ro code        0x3b4    0x4  asm.o [1]
+  .text     ro code        0x3b8    0x4  asm.o [1]
+  .text     ro code        0x3bc    0x4  asm.o [1]
+  .text     ro code        0x3c0    0x4  asm.o [1]
+  .text     ro code        0x3c4    0x4  asm.o [1]
+  .text     ro code        0x3c8    0x4  asm.o [1]
+  .text     ro code        0x3cc    0x4  asm.o [1]
+  .text     ro code        0x3d0    0x4  asm.o [1]
+  .text     ro code        0x3d4    0x4  asm.o [1]
+  .text     ro code        0x3d8    0x4  asm.o [1]
+  .text     ro code        0x3dc    0x4  asm.o [1]
+  .text     ro code        0x3e0    0x4  asm.o [1]
+  .text     ro code        0x3e4    0x4  asm.o [1]
+  .text     ro code        0x3e8    0x4  asm.o [1]
+  .text     ro code        0x3ec    0x4  asm.o [1]
+  .text     ro code        0x3f0    0x4  asm.o [1]
+  .text     ro code        0x3f4    0x4  asm.o [1]
+  .text     ro code        0x3f8    0x4  asm.o [1]
+  .text     ro code        0x3fc    0x4  asm.o [1]
+  .text     ro code        0x400    0x4  asm.o [1]
+  .text     ro code        0x404    0x4  asm.o [1]
+  .text     ro code        0x408    0x4  asm.o [1]
+  .text     ro code        0x40c    0x4  asm.o [1]
+  .text     ro code        0x410    0x4  asm.o [1]
+  .text     ro code        0x414    0x4  asm.o [1]
+  .text     ro code        0x418    0x4  asm.o [1]
+  .text     ro code        0x41c    0x4  asm.o [1]
+  .text     ro code        0x420    0x4  asm.o [1]
+  .text     ro code        0x424    0x4  asm.o [1]
+  .text     ro code        0x428    0x4  asm.o [1]
+  .text     ro code        0x42c    0x4  asm.o [1]
+  .text     ro code        0x430    0x2  asm.o [1]
+                         - 0x432  0x29a
+
+"P2":                             0x400
+  CSTACK             0x2000'0000  0x400  <Block>
+    CSTACK  uninit   0x2000'0000  0x400  <Block tail>
+                   - 0x2000'0400  0x400
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+        0x432     0x7'ffff  0x7'fbce
+  0x2000'0400  0x2000'ffff    0xfc00
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module          ro code  rw data
+    ------          -------  -------
+command line/config:
+    --------------------------------
+    Total:
+
+F:\Projects\STM32F411_project\Assmbler-Programm\Debug\Obj: [1]
+    asm.o             1'074
+    --------------------------------
+    Total:            1'074
+
+    Linker created             1'024
+------------------------------------
+    Grand Total:      1'074    1'024
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address  Size  Type      Object
+-----                       -------  ----  ----      ------
+ADC_IRQHandler                0x395        Code  Wk  asm.o [1]
+BusFault_Handler              0x431        Code  Wk  asm.o [1]
+CSTACK$$Base            0x2000'0000         --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'0400         --   Gb  - Linker created -
+DMA1_Stream0_IRQHandler
+                              0x379        Code  Wk  asm.o [1]
+DMA1_Stream1_IRQHandler
+                              0x37d        Code  Wk  asm.o [1]
+DMA1_Stream2_IRQHandler
+                              0x381        Code  Wk  asm.o [1]
+DMA1_Stream3_IRQHandler
+                              0x385        Code  Wk  asm.o [1]
+DMA1_Stream4_IRQHandler
+                              0x389        Code  Wk  asm.o [1]
+DMA1_Stream5_IRQHandler
+                              0x38d        Code  Wk  asm.o [1]
+DMA1_Stream6_IRQHandler
+                              0x391        Code  Wk  asm.o [1]
+DMA1_Stream7_IRQHandler
+                              0x3e5        Code  Wk  asm.o [1]
+DMA2_Stream0_IRQHandler
+                              0x3f5        Code  Wk  asm.o [1]
+DMA2_Stream1_IRQHandler
+                              0x3f9        Code  Wk  asm.o [1]
+DMA2_Stream2_IRQHandler
+                              0x3fd        Code  Wk  asm.o [1]
+DMA2_Stream3_IRQHandler
+                              0x401        Code  Wk  asm.o [1]
+DMA2_Stream4_IRQHandler
+                              0x405        Code  Wk  asm.o [1]
+DMA2_Stream5_IRQHandler
+                              0x40d        Code  Wk  asm.o [1]
+DMA2_Stream6_IRQHandler
+                              0x411        Code  Wk  asm.o [1]
+DMA2_Stream7_IRQHandler
+                              0x415        Code  Wk  asm.o [1]
+DebugMon_Handler              0x431        Code  Wk  asm.o [1]
+EXTI0_IRQHandler              0x365        Code  Wk  asm.o [1]
+EXTI15_10_IRQHandler          0x3d9        Code  Wk  asm.o [1]
+EXTI1_IRQHandler              0x369        Code  Wk  asm.o [1]
+EXTI2_IRQHandler              0x36d        Code  Wk  asm.o [1]
+EXTI3_IRQHandler              0x371        Code  Wk  asm.o [1]
+EXTI4_IRQHandler              0x375        Code  Wk  asm.o [1]
+EXTI9_5_IRQHandler            0x399        Code  Wk  asm.o [1]
+FLASH_IRQHandler              0x35d        Code  Wk  asm.o [1]
+FPU_IRQHandler                0x425        Code  Wk  asm.o [1]
+HardFault_Handler             0x431        Code  Wk  asm.o [1]
+I2C1_ER_IRQHandler            0x3bd        Code  Wk  asm.o [1]
+I2C1_EV_IRQHandler            0x3b9        Code  Wk  asm.o [1]
+I2C2_ER_IRQHandler            0x3c5        Code  Wk  asm.o [1]
+I2C2_EV_IRQHandler            0x3c1        Code  Wk  asm.o [1]
+I2C3_ER_IRQHandler            0x421        Code  Wk  asm.o [1]
+I2C3_EV_IRQHandler            0x41d        Code  Wk  asm.o [1]
+MemManage_Handler             0x431        Code  Wk  asm.o [1]
+NMI_Handler                   0x431        Code  Wk  asm.o [1]
+OTG_FS_IRQHandler             0x409        Code  Wk  asm.o [1]
+OTG_FS_WKUP_IRQHandler        0x3e1        Code  Wk  asm.o [1]
+PVD_IRQHandler                0x351        Code  Wk  asm.o [1]
+PendSV_Handler                0x431        Code  Wk  asm.o [1]
+RCC_IRQHandler                0x361        Code  Wk  asm.o [1]
+RTC_Alarm_IRQHandler          0x3dd        Code  Wk  asm.o [1]
+RTC_WKUP_IRQHandler           0x359        Code  Wk  asm.o [1]
+SDIO_IRQHandler               0x3e9        Code  Wk  asm.o [1]
+SPI1_IRQHandler               0x3c9        Code  Wk  asm.o [1]
+SPI2_IRQHandler               0x3cd        Code  Wk  asm.o [1]
+SPI3_IRQHandler               0x3f1        Code  Wk  asm.o [1]
+SPI4_IRQHandler               0x429        Code  Wk  asm.o [1]
+SPI5_IRQHandler               0x42d        Code  Wk  asm.o [1]
+SVC_Handler                   0x431        Code  Wk  asm.o [1]
+SysTick_Handler               0x431        Code  Wk  asm.o [1]
+TAMP_STAMP_IRQHandler         0x355        Code  Wk  asm.o [1]
+TIM1_BRK_TIM9_IRQHandler
+                              0x39d        Code  Wk  asm.o [1]
+TIM1_CC_IRQHandler            0x3a9        Code  Wk  asm.o [1]
+TIM1_TRG_COM_TIM11_IRQHandler
+                              0x3a5        Code  Wk  asm.o [1]
+TIM1_UP_TIM10_IRQHandler
+                              0x3a1        Code  Wk  asm.o [1]
+TIM2_IRQHandler               0x3ad        Code  Wk  asm.o [1]
+TIM3_IRQHandler               0x3b1        Code  Wk  asm.o [1]
+TIM4_IRQHandler               0x3b5        Code  Wk  asm.o [1]
+TIM5_IRQHandler               0x3ed        Code  Wk  asm.o [1]
+USART1_IRQHandler             0x3d1        Code  Wk  asm.o [1]
+USART2_IRQHandler             0x3d5        Code  Wk  asm.o [1]
+USART6_IRQHandler             0x419        Code  Wk  asm.o [1]
+UsageFault_Handler            0x431        Code  Wk  asm.o [1]
+WWDG_IRQHandler               0x34d        Code  Wk  asm.o [1]
+__iar_program_start           0x199        Code  Gb  asm.o [1]
+__vector_table                  0x0        Data  Gb  asm.o [1]
+
+
+[1] = F:\Projects\STM32F411_project\Assmbler-Programm\Debug\Obj
+
+  1'074 bytes of readonly  code memory
+  1'024 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
