@@ -20,115 +20,115 @@ Init
    
 /*Clock-Konfiguration*/
   
-        ldr     r0, =0x40023800         ; RCC base address
-        ldr     r1, [r0, #0x00]         ; RCC->CR
-        ldr     r2, =0x00010000         ; (1 << 16)
-        orr     r1, r1, r2              ; RCC->CR |= (1 << 16)
-        str     r1, [r0, #0x00]         ; store RCC->CR
+        ldr     r0, =0x40023800                 ; RCC base address
+        ldr     r1, [r0, #0x00]                 ; RCC->CR
+        ldr     r2, =0x00010000                 ; (1 << 16)
+        orr     r1, r1, r2                      ; RCC->CR |= (1 << 16)
+        str     r1, [r0, #0x00]                 ; store RCC->CR
 
-        ldr     r3, [r0, #0x30]         ; RCC->AHB1ENR
-        ldr     r4, =0x00000005         ; (1 << 0) | (1 << 2)
-        orr     r3, r3, r4              ; RCC->AHB1ENR |= (1 << 0) | (1 << 2)
-        str     r3, [r0, #0x30]         ; store RCC->AHB1ENR
+        ldr     r3, [r0, #0x30]                 ; RCC->AHB1ENR
+        ldr     r4, =0x00000005                 ; (1 << 0) | (1 << 2)
+        orr     r3, r3, r4                      ; RCC->AHB1ENR |= (1 << 0) | (1 << 2)
+        str     r3, [r0, #0x30]                 ; store RCC->AHB1ENR
 /*********************************************************************************************************************************************/
 
 /*Timer-Konfiguration für Timer 4 und Timer 3*/
         //TIM4
-        ldr     r0, =0x40023840         ; RCC base address
-        ldr     r1, [r0, #0x38]         ; RCC->APB1ENR
-        ldr     r2, =0x00000004         ; (1 << 2)
-        orr     r1, r1, r2              ; RCC->APB1ENR |= (1 << 2)
-        str     r1, [r0, #0x38]         ; store RCC->APB1ENR
+        ldr     r0, =0x40023840                 ; RCC base address
+        ldr     r1, [r0, #0x38]                 ; RCC->APB1ENR
+        ldr     r2, =0x00000004                 ; (1 << 2)
+        orr     r1, r1, r2                      ; RCC->APB1ENR |= (1 << 2)
+        str     r1, [r0, #0x38]                 ; store RCC->APB1ENR
 
-        ldr     r0, =0x40006800         ; TIM4 base address
-        ldr     r3, =8399               ; prescaler value
-        str     r3, [r0, #0x28]         ; TIM4->PSC = 8399
+        ldr     r0, =0x40006800                 ; TIM4 base address
+        ldr     r3, =8399                       ; prescaler value
+        str     r3, [r0, #0x28]                 ; TIM4->PSC = 8399
 
-        ldr     r4, =999                ; auto-reload value
-        str     r4, [r0, #0x2C]         ; TIM4->ARR = 999
+        ldr     r4, =999                        ; auto-reload value
+        str     r4, [r0, #0x2C]                 ; TIM4->ARR = 999
 
-        ldr     r5, [r0, #0x0C]         ; TIM4->DIER
-        ldr     r6, =0x00000001         ; (1 << 0)
-        orr     r5, r5, r6              ; TIM4->DIER |= (1 << 0)
-        str     r5, [r0, #0x0C]         ; store TIM4->DIER
+        ldr     r5, [r0, #0x0C]                 ; TIM4->DIER
+        ldr     r6, =0x00000001                 ; (1 << 0)
+        orr     r5, r5, r6                      ; TIM4->DIER |= (1 << 0)
+        str     r5, [r0, #0x0C]                 ; store TIM4->DIER
 
         //TIM3
-        ldr     r0, =0x40023840         ; RCC base address
-        ldr     r1, [r0, #0x38]         ; RCC->APB1ENR
-        ldr     r2, =0x00000002         ; (1 << 1)
-        orr     r1, r1, r2              ; RCC->APB1ENR |= (1 << 1)
-        str     r1, [r0, #0x38]         ; store RCC->APB1ENR
+        ldr     r0, =0x40023840                 ; RCC base address
+        ldr     r1, [r0, #0x38]                 ; RCC->APB1ENR
+        ldr     r2, =0x00000002                 ; (1 << 1)
+        orr     r1, r1, r2                      ; RCC->APB1ENR |= (1 << 1)
+        str     r1, [r0, #0x38]                 ; store RCC->APB1ENR
 
-        ldr     r0, =0x40000400         ; TIM3 base address
-        ldr     r3, =83                 ; prescaler value
-        str     r3, [r0, #0x28]         ; TIM3->PSC = 83
+        ldr     r0, =0x40000400                 ; TIM3 base address
+        ldr     r3, =83                         ; prescaler value
+        str     r3, [r0, #0x28]                 ; TIM3->PSC = 83
 
-        ldr     r4, =1                  ; (1 << 0)
-        str     r4, [r0, #0x14]         ; TIM3->EGR = (1 << 0)
+        ldr     r4, =1                          ; (1 << 0)
+        str     r4, [r0, #0x14]                 ; TIM3->EGR = (1 << 0)
 
-        ldr     r5, =999                ; auto-reload value
-        str     r5, [r0, #0x2C]         ; TIM3->ARR = 999
+        ldr     r5, =999                        ; auto-reload value
+        str     r5, [r0, #0x2C]                 ; TIM3->ARR = 999
+  
+        mov     r6, #0                          ; counter value
+        str     r6, [r0, #0x24]                 ; TIM3->CNT = 0
 
-        mov     r6, #0                  ; counter value
-        str     r6, [r0, #0x24]         ; TIM3->CNT = 0
-
-        ldr     r7, [r0, #0x0C]         ; TIM3->DIER
-        ldr     r8, =0x00000001         ; (1 << 0)
-        orr     r7, r7, r8              ; TIM3->DIER |= (1 << 0)
-        str     r7, [r0, #0x0C]         ; store TIM3->DIER
+        ldr     r7, [r0, #0x0C]                 ; TIM3->DIER
+        ldr     r8, =0x00000001                 ; (1 << 0)
+        orr     r7, r7, r8                      ; TIM3->DIER |= (1 << 0)
+        str     r7, [r0, #0x0C]                 ; store TIM3->DIER
 
 
 /***********************************************************************************************************************************************/
 
 /*Systemkonfiguration*/
 
-        ldr     r0, =0x40023844         ; RCC base address
-        ldr     r1, [r0, #0x0C]         ; RCC->APB2ENR
-        ldr     r2, =0x00004000         ; (1 << 14)
-        orr     r1, r1, r2              ; RCC->APB2ENR |= (1 << 14)
-        str     r1, [r0, #0x0C]         ; store RCC->APB2ENR
+        ldr     r0, =0x40023844                 ; RCC base address
+        ldr     r1, [r0, #0x0C]                 ; RCC->APB2ENR
+        ldr     r2, =0x00004000                 ; (1 << 14)
+        orr     r1, r1, r2                      ; RCC->APB2ENR |= (1 << 14)
+        str     r1, [r0, #0x0C]                 ; store RCC->APB2ENR
 
 /***********************************************************************************************************************************************/       
         
 /*Port-Interrupt-Konfiguration*/
 
-        ldr     r0, =0x40013800         ; SYSCFG base address
-        ldr     r1, [r0, #0x14]         ; SYSCFG->EXTICR[3]
-        ldr     r2, =0x00000020         ; (1 << 5)
-        orr     r1, r1, r2              ; SYSCFG->EXTICR[3] |= (1 << 5)
-        str     r1, [r0, #0x14]         ; store SYSCFG->EXTICR[3]
+        ldr     r0, =0x40013800                 ; SYSCFG base address
+        ldr     r1, [r0, #0x14]                 ; SYSCFG->EXTICR[3]
+        ldr     r2, =0x00000020                 ; (1 << 5)
+        orr     r1, r1, r2                      ; SYSCFG->EXTICR[3] |= (1 << 5)
+        str     r1, [r0, #0x14]                 ; store SYSCFG->EXTICR[3]
 
-        ldr     r0, =0x40011000         ; GPIOC base address
-        ldr     r3, [r0, #0x00]         ; GPIOC->MODER
-        ldr     r4, =0x00000000         ; (0 << 26)
-        bic     r3, r3, r4              ; GPIOC->MODER &= ~(0 << 26)
-        str     r3, [r0, #0x00]         ; store GPIOC->MODER
+        ldr     r0, =0x40011000                 ; GPIOC base address
+        ldr     r3, [r0, #0x00]                 ; GPIOC->MODER
+        ldr     r4, =0x00000000                 ; (0 << 26)
+        bic     r3, r3, r4                      ; GPIOC->MODER &= ~(0 << 26)
+        str     r3, [r0, #0x00]                 ; store GPIOC->MODER
 
-        ldr     r5, [r0, #0x0C]         ; GPIOC->PUPDR
-        ldr     r6, =0x04000000         ; (1 << 26)
-        orr     r5, r5, r6              ; GPIOC->PUPDR |= (1 << 26)
-        str     r5, [r0, #0x0C]         ; store GPIOC->PUPDR
+        ldr     r5, [r0, #0x0C]                 ; GPIOC->PUPDR
+        ldr     r6, =0x04000000                 ; (1 << 26)
+        orr     r5, r5, r6                      ; GPIOC->PUPDR |= (1 << 26)
+        str     r5, [r0, #0x0C]                 ; store GPIOC->PUPDR
 
-        ldr     r0, =0x40013C0C         ; EXTI base address
-        ldr     r7, [r0, #0x04]         ; EXTI->FTSR
-        ldr     r8, =0x2000             ; (1 << 13)
-        orr     r7, r7, r8              ; EXTI->FTSR |= (1 << 13)
-        str     r7, [r0, #0x04]         ; store EXTI->FTSR
+        ldr     r0, =0x40013C0C                 ; EXTI base address
+        ldr     r7, [r0, #0x04]                 ; EXTI->FTSR
+        ldr     r8, =0x2000                     ; (1 << 13)
+        orr     r7, r7, r8                      ; EXTI->FTSR |= (1 << 13)
+        str     r7, [r0, #0x04]                 ; store EXTI->FTSR
 
-        ldr     r9, [r0, #0x00]         ; EXTI->IMR
-        ldr     r10, =0x2000            ; (1 << 13)
-        orr     r9, r9, r10             ; EXTI->IMR |= (1 << 13)
-        str     r9, [r0, #0x00]         ; store EXTI->IMR
+        ldr     r9, [r0, #0x00]                 ; EXTI->IMR
+        ldr     r10, =0x2000                    ; (1 << 13)
+        orr     r9, r9, r10                     ; EXTI->IMR |= (1 << 13)
+        str     r9, [r0, #0x00]                 ; store EXTI->IMR
 
 /************************************************************************************************************************************************/
         
 /*LED-Konfiguration*/
 
-        ldr     r0, =0x40020000         ; GPIOA base address
-        ldr     r1, [r0, #0x00]         ; GPIOA->MODER
-        ldr     r2, =0x00000400         ; (1 << 10)
-        orr     r1, r1, r2              ; GPIOA->MODER |= (1 << 10)
-        str     r1, [r0, #0x00]         ; store GPIOA->MODER
+        ldr     r0, =0x40020000                 ; GPIOA base address
+        ldr     r1, [r0, #0x00]                 ; GPIOA->MODER
+        ldr     r2, =0x00000400                 ; (1 << 10)
+        orr     r1, r1, r2                      ; GPIOA->MODER |= (1 << 10)
+        str     r1, [r0, #0x00]                 ; store GPIOA->MODER
 
 /************************************************************************************************************************************************/
 /*Da sich der NVIC im Prozessor befindet, muss hier in das Technical-Reference-Manual vom Prozessor, also dem Cortex-M4 geschaut werden,
@@ -175,39 +175,39 @@ Init
 
 /*Interrupt-Handler für den Port-Interrupt*/
 EXTI15_10_ISR
-        ldr     r0, =0x40013C0C         ; EXTI base address
-        ldr     r1, [r0, #0x08]         ; EXTI->PR
-        ldr     r2, =0x2000             ; (1 << 13)
-        tst     r1, r2                  ; check EXTI->PR & (1 << 13)
-        bne     button_press            ; branch if button press detected
+        ldr     r0, =0x40013C0C                 ; EXTI base address
+        ldr     r1, [r0, #0x08]                 ; EXTI->PR
+        ldr     r2, =0x2000                     ; (1 << 13)
+        tst     r1, r2                          ; check EXTI->PR & (1 << 13)
+        bne     button_press                    ; branch if button press detected
 
-        bx      lr                      ; return if no button press detected
+        bx      lr                              ; return if no button press detected
 
     button_press:
-        ldr     r0, =0x40011000         ; GPIOC base address
-        ldr     r3, [r0, #0x10]         ; GPIOC->IDR
-        ldr     r4, =0x2000             ; (1 << 13)
-        tst     r3, r4                  ; check GPIOC->IDR & (1 << 13)
-        beq     debounce_timer          ; branch if button is pressed
-        bx      lr                      ; return if button is not pressed
+        ldr     r0, =0x40011000                 ; GPIOC base address
+        ldr     r3, [r0, #0x10]                 ; GPIOC->IDR
+        ldr     r4, =0x2000                     ; (1 << 13)
+        tst     r3, r4                          ; check GPIOC->IDR & (1 << 13)
+        beq     debounce_timer                  ; branch if button is pressed
+        bx      lr                              ; return if button is not pressed
 
     debounce_timer:
-        ldr     r0, =0x40000400         ; TIM3 base address
-        mov     r5, #0                  ; set counter to 0
-        str     r5, [r0, #0x24]         ; TIM3->CNT = 0
+        ldr     r0, =0x40000400                 ; TIM3 base address
+        mov     r5, #0                          ; set counter to 0
+        str     r5, [r0, #0x24]                 ; TIM3->CNT = 0
 
-        ldr     r6, [r0, #0x00]         ; TIM3->CR1
-        ldr     r7, =0x0001             ; (1 << 0)
-        orr     r6, r6, r7              ; TIM3->CR1 |= (1 << 0)
-        str     r6, [r0, #0x00]         ; store TIM3->CR1
+        ldr     r6, [r0, #0x00]                 ; TIM3->CR1
+        ldr     r7, =0x0001                     ; (1 << 0)
+        orr     r6, r6, r7                      ; TIM3->CR1 |= (1 << 0)
+        str     r6, [r0, #0x00]                 ; store TIM3->CR1
 
-        ldr     r8, [r0, #0x08]         ; EXTI->PR
-        ldr     r9, =0x2000             ; (1 << 13)
-        orr     r8, r8, r9              ; EXTI->PR |= (1 << 13)
-        str     r8, [r0, #0x08]         ; store EXTI->PR
+        ldr     r8, [r0, #0x08]                 ; EXTI->PR
+        ldr     r9, =0x2000                     ; (1 << 13)
+        orr     r8, r8, r9                      ; EXTI->PR |= (1 << 13)
+        str     r8, [r0, #0x08]                 ; store EXTI->PR
   
                              
-        bx      lr                      ; return
+        bx      lr                              ; return
  
 /************************************************************************************************************************************************
 *************************************************************************************************************************************************/
@@ -215,60 +215,60 @@ EXTI15_10_ISR
 /*Interrupt-Handler für Timer 4*/
 TIM4_ISR
 
-        ldr     r0, =0x40000800         ; TIM4 base address
-        ldr     r1, [r0, #0x10]         ; TIM4->SR
-        ldr     r2, =0x0001             ; (1 << 0)
-        tst     r1, r2                  ; check TIM4->SR & (1 << 0)
-        bne     toggle_led              ; branch if update interrupt flag is set
+        ldr     r0, =0x40000800                 ; TIM4 base address
+        ldr     r1, [r0, #0x10]                 ; TIM4->SR
+        ldr     r2, =0x0001                     ; (1 << 0)
+        tst     r1, r2                          ; check TIM4->SR & (1 << 0)
+        bne     toggle_led                      ; branch if update interrupt flag is set
 
-        bx      lr                      ; return if update interrupt flag is not set
+        bx      lr                              ; return if update interrupt flag is not set
 
     toggle_led:
-        ldr     r0, =0x40020000         ; GPIOA base address
-        ldr     r3, [r0, #0x14]         ; GPIOA->ODR
-        ldr     r4, =0x00000020         ; (1 << 5)
-        eor     r3, r3, r4              ; GPIOA->ODR ^= (1 << 5)
-        str     r3, [r0, #0x14]         ; store GPIOA->ODR
+        ldr     r0, =0x40020000                 ; GPIOA base address
+        ldr     r3, [r0, #0x14]                 ; GPIOA->ODR
+        ldr     r4, =0x00000020                 ; (1 << 5)
+        eor     r3, r3, r4                      ; GPIOA->ODR ^= (1 << 5)
+        str     r3, [r0, #0x14]                 ; store GPIOA->ODR
 
-        ldr     r5, [r0, #0x10]         ; TIM4->SR
-        ldr     r6, =0x0000             ; (0 << 0)
-        and     r5, r5, r6              ; TIM4->SR &= (0 << 0)
-        str     r5, [r0, #0x10]         ; store TIM4->SR
+        ldr     r5, [r0, #0x10]                 ; TIM4->SR
+        ldr     r6, =0x0000                     ; (0 << 0)
+        and     r5, r5, r6                      ; TIM4->SR &= (0 << 0)
+        str     r5, [r0, #0x10]                 ; store TIM4->SR
  
  
-        bx     lr                      ; return
+        bx     lr                               ; return
 
 /************************************************************************************************************************************************
 *************************************************************************************************************************************************/
 
 /*Interrupt-Handler für Timer 3*/
 TIM3_ISR
-        ldr     r0, =0x40000400         ; TIM3 base address
-        ldr     r1, [r0, #0x10]         ; TIM3->SR
-        ldr     r2, =0x0001             ; (1 << 0)
-        tst     r1, r2                  ; check TIM3->SR & (1 << 0)
-        bne     debounce_elapsed        ; branch if debounce time elapsed
-        bx      lr                 ; return if debounce time not elapsed
+        ldr     r0, =0x40000400                 ; TIM3 base address
+        ldr     r1, [r0, #0x10]                 ; TIM3->SR
+        ldr     r2, =0x0001                     ; (1 << 0)
+        tst     r1, r2                          ; check TIM3->SR & (1 << 0)
+        bne     debounce_elapsed                ; branch if debounce time elapsed
+        bx      lr                              ; return if debounce time not elapsed
 
     debounce_elapsed:
-        ldr     r0, =0x40000800         ; TIM4 base address
-        ldr     r3, [r0, #0x00]         ; TIM4->CR1
-        ldr     r4, =0x0001             ; (1 << 0)
-        eor     r3, r3, r4              ; TIM4->CR1 ^= (1 << 0)
-        str     r3, [r0, #0x00]         ; store TIM4->CR1
+        ldr     r0, =0x40000800                 ; TIM4 base address
+        ldr     r3, [r0, #0x00]                 ; TIM4->CR1
+        ldr     r4, =0x0001                     ; (1 << 0)
+        eor     r3, r3, r4                      ; TIM4->CR1 ^= (1 << 0)
+        str     r3, [r0, #0x00]                 ; store TIM4->CR1
 
-        ldr     r5, [r0, #0x00]         ; TIM3->CR1
-        ldr     r6, =0x0001             ; ~(1 << 0)
-        bic     r5, r5, r6              ; TIM3->CR1 &= ~(1 << 0)
-        str     r5, [r0, #0x00]         ; store TIM3->CR1
+        ldr     r5, [r0, #0x00]                 ; TIM3->CR1
+        ldr     r6, =0x0001                     ; ~(1 << 0)
+        bic     r5, r5, r6                      ; TIM3->CR1 &= ~(1 << 0)
+        str     r5, [r0, #0x00]                 ; store TIM3->CR1
 
-        ldr     r7, [r0, #0x10]         ; TIM3->SR
-        ldr     r8, =0x0001             ; ~(1 << 0)
-        bic     r7, r7, r8              ; TIM3->SR &= ~(1 << 0)
-        str     r7, [r0, #0x10]         ; store TIM3->SR
+        ldr     r7, [r0, #0x10]                 ; TIM3->SR
+        ldr     r8, =0x0001                     ; ~(1 << 0)
+        bic     r7, r7, r8                      ; TIM3->SR &= ~(1 << 0)
+        str     r7, [r0, #0x10]                 ; store TIM3->SR
         
                                
-        bx      lr                      ; return
+        bx      lr                              ; return
         
         
 
